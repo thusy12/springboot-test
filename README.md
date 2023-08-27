@@ -7,6 +7,7 @@ step2 - create a database in mysql with a name of "newtestdb_spring"
 step3 - run using the command "mvn spring-boot:run"
 
 step4 - run following commands to create the roles
+
   INSERT INTO roles(name) VALUES('ROLE_USER');
   INSERT INTO roles(name) VALUES('ROLE_MODERATOR');
   INSERT INTO roles(name) VALUES('ROLE_ADMIN');
