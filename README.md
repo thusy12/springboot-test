@@ -12,6 +12,7 @@ step4 - run following commands to create the roles
   INSERT INTO roles(name) VALUES('ROLE_ADMIN');
   
 step5 - can check in postman with below requests
+
   POST request-> http://localhost:8081/api/auth/signup
   body
   {
